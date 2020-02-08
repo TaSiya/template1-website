@@ -16,9 +16,3 @@
 		-ms-transform: none;
 		transform: none;
 	}
-
-	/* Carousel */
-
-	.carousel {
-		overflow-x: auto;
-	}
