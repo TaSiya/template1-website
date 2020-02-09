@@ -10,16 +10,6 @@
 		$body = $('body'),
 		$main = $('#main');
 
-		settings = {
-
-			// Carousels
-				carousels: {
-					speed: 4,
-					fadeIn: true,
-					fadeDelay: 250
-				},
-
-		};
 		
 	// Breakpoints.
 		breakpoints({
