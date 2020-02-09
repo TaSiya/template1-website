@@ -140,9 +140,32 @@
 							<h2>Contact Form</h2>
 							<p>Add information regarding how to use the form to contact us</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Contact us</a></li>
+								<li><a href="generic.html" class="button" data-toggle="modal" data-target="#staticBackdrop">Contact us</a></li>
 							</ul>
+
+							<!-- Modal -->
+								<div class="modal fade mt-5 pt-3 text-dark" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title text-dark" id="staticBackdropLabel">Modal title</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												...
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary">Understood</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							
 						</section>
+
 						<section>
 							<h2>Contact details</h2>
 							<dl class="alt">
