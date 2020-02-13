@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Home page</title>
+		<title>Castle Hill</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -21,9 +21,9 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/mastercard.jpeg" alt="" width="200px"/></span>
-						<h1>Siyanda Community Solutions (SCS)</h1>
-						<p>Community Solutions like never before</p>
+						<span class="logo"><img src="images/logo.jpeg" alt="" width="400px"/></span>
+						<h1>Castle Hill</h1>
+						<p>Home Improvement and Maintenance Services </p>
 					</header>
 
 				<!-- Nav -->
@@ -45,14 +45,14 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Company profile</h2>
+											<h2>Castle Hill Profile</h2>
 										</header>
 										<p>History of the company can be long as you want there is no limitation at all. This is just to show you. History of the company can be long as you want there is no limitation at all. This is just to show you. History of the company can be long as you want there is no limitation at all. This is just to show you.</p>
 										<ul class="actions">
 											<li><a href="#about" class="button">More background</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="images/logo2.jpeg" alt="" /></span>
 								</div>
 							</section>
 
@@ -62,31 +62,38 @@
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>Services</h2>
-									<p>Below are services that we provide</p>
+									<p class="text-primary">We specialise in the following</p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>API</strong> API integration
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>Files</strong> File management
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>Data</strong> Data providers
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>Laptops</strong> Repair computers
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>Jewelery</strong> Sell it!
-									</li>
-								</ul>
-								<p class="content">Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. Software development is a process of writing and maintaining the source code, but in a broader sense, it includes all that is involved between the conception of the desired software through to the final manifestation of the software, sometimes in a planned and structured process.[1] Therefore, software development may include research, new development, prototyping, modification, reuse, re-engineering, maintenance, or any other activities that result in software products.[2]</p>
+								<table class="table table-borderless">
+									<tbody>
+										<tr>
+												<td>Construction</td>
+												<td>Home improvements</td>
+												<td>Irrigation</td>
+										</tr>
+										<tr>
+												<td>Tiling & Paiting</td>
+												<td>Curtain design & installation</td>
+												<td>Home Maintenance Servicies</td>
+										</tr>
+										<tr>
+												<td>General handman Services</td>
+												<td>bathroom Renovations</td>
+												<td>Electrical Maintenance Work</td>
+										</tr>
+										<tr>
+												<td>Waterproofing</td>
+												<td>Plumbing</td>
+												<td>Blocked Drains</td>
+										</tr>
+										<tr>
+												<td>Geyser Repair</td>
+												<td>Steel Work</td>
+												<td>Ceilings: Installation & Repair</td>
+										</tr>
+									</tbody>
+								</table>
+								<p class="content">In here you can add more info regarding the services you provide. Or we can remove this part if you don't want it</p>
 								<footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
@@ -148,17 +155,30 @@
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
-												<h5 class="modal-title text-dark" id="staticBackdropLabel">Modal title</h5>
+												<h5 class="modal-title text-dark" id="staticBackdropLabel">Contact form</h5>
 												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
-											<div class="modal-body">
-												...
+											<div class="modal-body ">
+												<form class="was-validated" method="POST" name="contact_form" action="send-message.php">
+													<div class="mb-3">
+														<label for="validationName">Name and Surname</label>
+														<input class="border rounded bg-light" type="text" name="name" id="email-subject" placeholder="Subject" style="color: aqua;">
+													</div>
+													<div class="mb-3">
+															<label for="validationEmail">Email address</label>
+															<input class="border rounded bg-light" type="text" name="email" id="email-subject" placeholder="Subject" style="color: aqua;">
+														</div>
+													<div class="mb-3">
+															<label for="validationMessage">Message</label>
+															<input class="border rounded bg-light" type="text" name="message" id="email-subject" style="color: aqua;">
+													</div>
+													<button class="btn btn-success" type="submit">Send Message</button>
+												</form>
 											</div>
 											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-												<button type="button" class="btn btn-primary">Understood</button>
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Discard</button>
 											</div>
 										</div>
 									</div>
@@ -170,21 +190,19 @@
 							<h2>Contact details</h2>
 							<dl class="alt">
 								<dt>Address</dt>
-								<dd>88 Bonkolo Drive Village 3 &bull; Site B, Khayelitsha &bull; Cape Town</dd>
+								<dd>68 Coral Wood, Edge Road &bull; Beacon Bay &bull; East London</dd>
 								<dt>Phone</dt>
-								<dd>(+27) 896 465 9083</dd>
+								<dd>(+27) 82 935 8684</dd>
 								<dt>Email</dt>
-								<dd><a href="#">companyname@gmail.com</a></dd>
+								<dd><a href="#">info@castlehill.co.za</a></dd>
 							</dl>
 							<ul class="icons">
 								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Company name. Design: <a href="https://html5up.net">Siyanda Makhalima</a>.</p>
+						<p class="copyright">&copy; Castle hill. Developed by <a href="http://">TaSiya</a> Design: <a href="https://html5up.net">html5up</a>.</p>
 					</footer>
 
 			</div>
